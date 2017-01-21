@@ -10,3 +10,7 @@
   So if you logged a variable in a function that wasn't declared there, the function will follow the scope chain, 
   checking for the variable in all the outer functions until it reaches the global execution context. 
   As soon as it finds the variable it stops going back through the scope chain.
+
+# ES6 and 'let'
+  Let is the block scoped ES6 version of 'var'. 
+  It **IS** created during the creation phase, but it **ISN'T** usable until declared. 
